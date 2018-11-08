@@ -3,4 +3,8 @@
   "version": "1.0.2",
   "author": "Stanislav Shylo <stanislav@slatestudio.com>",
   "license": "ISC",
+  "dependencies": {
+  },
+  "devDependencies":{
+  }
 }
