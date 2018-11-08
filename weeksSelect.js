@@ -88,6 +88,6 @@
     };
   }
 
-  return weekSelectPlugin;
+  return weeksSelectPlugin;
 
 })));
