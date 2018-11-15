@@ -4,7 +4,8 @@
       (global.weekSelect = factory());
 }(this, (function () { 'use strict';
 
-  function weeksSelectPlugin({ weeksSelect }) {
+  function weeksSelectPlugin(config) {
+    var weeksSelect = config.weeksSelect;
     if(!weeksSelect || weeksSelect < 1) weeksSelect = 1;
 
     return function (fp) {
